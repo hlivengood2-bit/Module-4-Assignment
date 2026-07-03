@@ -20,7 +20,7 @@ start
          output "Net pay for ", name, " is ", net
       else
           output "Deductions not covered. Net is 0."
-      endwhile
+      endif
       output "Enter next name or ", EOFNAME, " to quit"
       input name
    endwhile
